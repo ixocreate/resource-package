@@ -1,4 +1,6 @@
 <?php
+declare(strict_types=1);
+
 namespace KiwiSuite\Resource;
 
 use KiwiSuite\Contract\Application\ConfiguratorRegistryInterface;
