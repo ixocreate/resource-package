@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace KiwiSuite\Resource;
+namespace Ixocreate\Resource;
 
-/** @var \KiwiSuite\ServiceManager\ServiceManagerConfigurator $serviceManager */
-use KiwiSuite\Resource\SubManager\ResourceSubManager;
+/** @var \Ixocreate\ServiceManager\ServiceManagerConfigurator $serviceManager */
+use Ixocreate\Resource\SubManager\ResourceSubManager;
 
 
 $serviceManager->addSubManager(ResourceSubManager::class);

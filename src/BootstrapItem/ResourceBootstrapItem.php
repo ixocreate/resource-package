@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace KiwiSuite\Resource\BootstrapItem;
+namespace Ixocreate\Resource\BootstrapItem;
 
-use KiwiSuite\Contract\Application\BootstrapItemInterface;
-use KiwiSuite\Contract\Application\ConfiguratorInterface;
-use KiwiSuite\Resource\SubManager\ResourceConfigurator;
+use Ixocreate\Contract\Application\BootstrapItemInterface;
+use Ixocreate\Contract\Application\ConfiguratorInterface;
+use Ixocreate\Resource\SubManager\ResourceConfigurator;
 
 final class ResourceBootstrapItem implements BootstrapItemInterface
 {

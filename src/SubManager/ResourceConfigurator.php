@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace KiwiSuite\Resource\SubManager;
+namespace Ixocreate\Resource\SubManager;
 
-use KiwiSuite\Contract\Application\ConfiguratorInterface;
-use KiwiSuite\Contract\Application\ServiceRegistryInterface;
-use KiwiSuite\Contract\Resource\ResourceInterface;
-use KiwiSuite\ServiceManager\Factory\AutowireFactory;
-use KiwiSuite\ServiceManager\SubManager\SubManagerConfigurator;
+use Ixocreate\Contract\Application\ConfiguratorInterface;
+use Ixocreate\Contract\Application\ServiceRegistryInterface;
+use Ixocreate\Contract\Resource\ResourceInterface;
+use Ixocreate\ServiceManager\Factory\AutowireFactory;
+use Ixocreate\ServiceManager\SubManager\SubManagerConfigurator;
 
 final class ResourceConfigurator implements ConfiguratorInterface
 {

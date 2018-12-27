@@ -1,9 +1,9 @@
 <?php
-namespace KiwiSuite\Admin;
+namespace Ixocreate\Admin;
 
 
-use KiwiSuite\Resource\Template\ResourceExtension;
-use KiwiSuite\Template\TemplateConfigurator;
+use Ixocreate\Resource\Template\ResourceExtension;
+use Ixocreate\Template\TemplateConfigurator;
 
 /** @var TemplateConfigurator $template */
 

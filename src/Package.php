@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace KiwiSuite\Resource;
+namespace Ixocreate\Resource;
 
-use KiwiSuite\Contract\Application\ConfiguratorRegistryInterface;
-use KiwiSuite\Contract\Application\PackageInterface;
-use KiwiSuite\Contract\Application\ServiceRegistryInterface;
-use KiwiSuite\Contract\ServiceManager\ServiceManagerInterface;
-use KiwiSuite\Resource\BootstrapItem\ResourceBootstrapItem;
+use Ixocreate\Contract\Application\ConfiguratorRegistryInterface;
+use Ixocreate\Contract\Application\PackageInterface;
+use Ixocreate\Contract\Application\ServiceRegistryInterface;
+use Ixocreate\Contract\ServiceManager\ServiceManagerInterface;
+use Ixocreate\Resource\BootstrapItem\ResourceBootstrapItem;
 
 final class Package implements PackageInterface
 {

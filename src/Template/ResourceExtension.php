@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace KiwiSuite\Resource\Template;
+namespace Ixocreate\Resource\Template;
 
-use KiwiSuite\Contract\Resource\ResourceInterface;
-use KiwiSuite\Contract\Template\ExtensionInterface;
-use KiwiSuite\Database\Repository\Factory\RepositorySubManager;
-use KiwiSuite\Database\Repository\RepositoryInterface;
-use KiwiSuite\Entity\Entity\EntityCollection;
-use KiwiSuite\Resource\SubManager\ResourceSubManager;
+use Ixocreate\Contract\Resource\ResourceInterface;
+use Ixocreate\Contract\Template\ExtensionInterface;
+use Ixocreate\Database\Repository\Factory\RepositorySubManager;
+use Ixocreate\Database\Repository\RepositoryInterface;
+use Ixocreate\Entity\Entity\EntityCollection;
+use Ixocreate\Resource\SubManager\ResourceSubManager;
 
 final class ResourceExtension implements ExtensionInterface
 {
