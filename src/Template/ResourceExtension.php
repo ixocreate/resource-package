@@ -1,4 +1,10 @@
 <?php
+/**
+ * @link https://github.com/ixocreate
+ * @copyright IXOCREATE GmbH
+ * @license MIT License
+ */
+
 declare(strict_types=1);
 
 namespace Ixocreate\Resource\Template;
@@ -12,11 +18,11 @@ use Ixocreate\Resource\SubManager\ResourceSubManager;
 
 final class ResourceExtension implements ExtensionInterface
 {
-
     /**
      * @var ResourceSubManager
      */
     private $resourceSubManager;
+
     /**
      * @var RepositorySubManager
      */
@@ -48,7 +54,7 @@ final class ResourceExtension implements ExtensionInterface
 
         $result = $repository->findAll();
 
-        return new EntityCollection($result, function($item) {
+        return new EntityCollection($result, function ($item) {
             return (string) $item->id();
         });
     }

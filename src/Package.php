@@ -1,4 +1,10 @@
 <?php
+/**
+ * @link https://github.com/ixocreate
+ * @copyright IXOCREATE GmbH
+ * @license MIT License
+ */
+
 declare(strict_types=1);
 
 namespace Ixocreate\Resource;
@@ -11,7 +17,6 @@ use Ixocreate\Resource\BootstrapItem\ResourceBootstrapItem;
 
 final class Package implements PackageInterface
 {
-
     public function configure(ConfiguratorRegistryInterface $configuratorRegistry): void
     {
     }
@@ -23,7 +28,7 @@ final class Package implements PackageInterface
     public function getBootstrapItems(): ?array
     {
         return [
-            ResourceBootstrapItem::class
+            ResourceBootstrapItem::class,
         ];
     }
 

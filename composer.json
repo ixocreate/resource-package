@@ -13,8 +13,8 @@
         "ixocreate/contract": "dev-develop"
     },
     "require-dev": {
+        "ixocreate/coding-standard": "^1.0",
         "phpunit/phpunit": "^6.0.6",
-        "friendsofphp/php-cs-fixer": "^2.5",
         "php-coveralls/php-coveralls": "^2.0"
     },
     "autoload": {
