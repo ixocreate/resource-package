@@ -1,23 +1,21 @@
 **This is a draft. Don't use in production**
 
-# kiwi-suite/resource
+# IXOCREAT resource
 
-kiwi-suite/resource is a psr-11 container library
+ixocreate/resource is a psr-11 container library
 
-[![Build Status](https://travis-ci.org/kiwi-suite/resource.svg?branch=master)](https://travis-ci.org/kiwi-suite/resource)
-[![Coverage Status](https://coveralls.io/repos/github/kiwi-suite/resource/badge.svg?branch=develop)](https://coveralls.io/github/kiwi-suite/resource?branch=develop)
-[![Packagist](https://img.shields.io/packagist/v/kiwi-suite/resource.svg)](https://packagist.org/packages/kiwi-suite/resource)
-[![Packagist Pre Release](https://img.shields.io/packagist/vpre/kiwi-suite/resource.svg)](https://packagist.org/packages/kiwi-suite/resource)
-[![Packagist](https://img.shields.io/packagist/l/kiwi-suite/resource.svg)](https://packagist.org/packages/kiwi-suite/resource)
+[![Build Status](https://travis-ci.org/ixocreate/resource.svg?branch=master)](https://travis-ci.org/ixocreate/resource)
+[![Coverage Status](https://coveralls.io/repos/github/ixocreate/resource/badge.svg?branch=develop)](https://coveralls.io/github/ixocreate/resource?branch=develop)
+[![Packagist](https://img.shields.io/packagist/v/ixocreate/resource.svg)](https://packagist.org/packages/ixocreate/resource)
+[![Packagist Pre Release](https://img.shields.io/packagist/vpre/ixocreate/resource.svg)](https://packagist.org/packages/ixocreate/resource)
+[![Packagist](https://img.shields.io/packagist/l/ixocreate/resource.svg)](https://packagist.org/packages/ixocreate/resource)
 
-## Installation
-
-The suggested installation method is via [composer](https://getcomposer.org/):
+Install the package via composer:
 
 ```sh
-php composer.phar require kiwi-suite/resource
+composer require ixocreate/resource
 ```
 
 ## License
 
-kiwi-suite/resource is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT) - see the `LICENSE` file for details
+The MIT License (MIT). Please see [LICENSE](LICENSE) for more information.
