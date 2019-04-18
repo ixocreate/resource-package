@@ -1,9 +1,9 @@
 <?php
-namespace Ixocreate\Package\Admin;
+namespace Ixocreate\Admin\Package;
 
 
-use Ixocreate\Package\Resource\Template\ResourceExtension;
-use Ixocreate\Package\Template\TemplateConfigurator;
+use Ixocreate\Resource\Package\Template\ResourceExtension;
+use Ixocreate\Template\Package\TemplateConfigurator;
 
 /** @var TemplateConfigurator $template */
 

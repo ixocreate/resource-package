@@ -7,7 +7,7 @@
 
 declare(strict_types=1);
 
-namespace Ixocreate\Package\Resource;
+namespace Ixocreate\Resource\Package;
 
 use Ixocreate\ServiceManager\NamedServiceInterface;
 
