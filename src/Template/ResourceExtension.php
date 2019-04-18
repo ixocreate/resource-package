@@ -10,10 +10,10 @@ declare(strict_types=1);
 namespace Ixocreate\Resource\Package\Template;
 
 use Ixocreate\Resource\Package\ResourceInterface;
-use Ixocreate\Template\ExtensionInterface;
+use Ixocreate\Template\Package\ExtensionInterface;
 use Ixocreate\Database\Package\Repository\Factory\RepositorySubManager;
 use Ixocreate\Database\Package\Repository\RepositoryInterface;
-use Ixocreate\Entity\Package\Entity\EntityCollection;
+use Ixocreate\Entity\Package\EntityCollection;
 use Ixocreate\Resource\Package\SubManager\ResourceSubManager;
 
 final class ResourceExtension implements ExtensionInterface
