@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ixocreate\\Resource\\Package\\": "src/"
+            "Ixocreate\\Resource\\": "src/"
         }
     },
     "autoload-dev": {

@@ -7,14 +7,14 @@
 
 declare(strict_types=1);
 
-namespace Ixocreate\Resource\Package\Template;
+namespace Ixocreate\Resource\Template;
 
-use Ixocreate\Resource\Package\ResourceInterface;
-use Ixocreate\Template\Package\ExtensionInterface;
-use Ixocreate\Database\Package\Repository\Factory\RepositorySubManager;
-use Ixocreate\Database\Package\Repository\RepositoryInterface;
-use Ixocreate\Entity\Package\EntityCollection;
-use Ixocreate\Resource\Package\SubManager\ResourceSubManager;
+use Ixocreate\Resource\ResourceInterface;
+use Ixocreate\Template\ExtensionInterface;
+use Ixocreate\Database\Repository\Factory\RepositorySubManager;
+use Ixocreate\Database\Repository\RepositoryInterface;
+use Ixocreate\Entity\EntityCollection;
+use Ixocreate\Resource\SubManager\ResourceSubManager;
 
 final class ResourceExtension implements ExtensionInterface
 {

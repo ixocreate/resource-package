@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Ixocreate\Resource\Package;
+namespace Ixocreate\Resource;
 
 /** @var \Ixocreate\ServiceManager\ServiceManagerConfigurator $serviceManager */
-use Ixocreate\Resource\Package\SubManager\ResourceSubManager;
+use Ixocreate\Resource\SubManager\ResourceSubManager;
 
 
 $serviceManager->addSubManager(ResourceSubManager::class);
