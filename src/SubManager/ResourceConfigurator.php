@@ -7,11 +7,11 @@
 
 declare(strict_types=1);
 
-namespace Ixocreate\Resource\SubManager;
+namespace Ixocreate\Package\Resource\SubManager;
 
-use Ixocreate\Contract\Application\ConfiguratorInterface;
-use Ixocreate\Contract\Application\ServiceRegistryInterface;
-use Ixocreate\Contract\Resource\ResourceInterface;
+use Ixocreate\Application\ConfiguratorInterface;
+use Ixocreate\Application\ServiceRegistryInterface;
+use Ixocreate\Package\Resource\ResourceInterface;
 use Ixocreate\ServiceManager\Factory\AutowireFactory;
 use Ixocreate\ServiceManager\SubManager\SubManagerConfigurator;
 

@@ -1,6 +1,6 @@
 {
-    "name": "ixocreate/resource",
-    "description": "IXOCREATE Resource",
+    "name": "ixocreate/resource-package",
+    "description": "IXOCREATE Resource Package",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -12,22 +12,22 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.1",
-        "ixocreate/contract": "dev-develop"
+        "ixocreate/application": "dev-consolidate"
     },
     "require-dev": {
-        "ixocreate/coding-standard": "^1.0.1",
+        "ixocreate/coding-standard": "^1.0",
         "php-coveralls/php-coveralls": "^2.1",
         "phpunit/phpunit": "^7.0"
     },
     "autoload": {
         "psr-4": {
-            "Ixocreate\\Resource\\": "src/"
+            "Ixocreate\\Package\\Resource\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "IxocreateMisc\\Resource\\": "tests/misc/",
-            "IxocreateTest\\Resource\\": "tests/src/"
+            "Ixocreate\\Misc\\Resource\\": "tests/misc/",
+            "Ixocreate\\Test\\Resource\\": "tests/src/"
         }
     },
     "scripts": {
