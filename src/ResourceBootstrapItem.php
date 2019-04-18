@@ -9,8 +9,8 @@ declare(strict_types=1);
 
 namespace Ixocreate\Resource;
 
-use Ixocreate\Application\BootstrapItemInterface;
-use Ixocreate\Application\ConfiguratorInterface;
+use Ixocreate\Application\Bootstrap\BootstrapItemInterface;
+use Ixocreate\Application\Configurator\ConfiguratorInterface;
 
 final class ResourceBootstrapItem implements BootstrapItemInterface
 {
