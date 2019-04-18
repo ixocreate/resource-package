@@ -1,6 +1,6 @@
 <?php
-namespace Ixocreate\Admin;
 
+namespace Ixocreate\Admin;
 
 use Ixocreate\Resource\Template\ResourceExtension;
 use Ixocreate\Template\TemplateConfigurator;

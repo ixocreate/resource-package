@@ -9,12 +9,12 @@ declare(strict_types=1);
 
 namespace Ixocreate\Resource\Template;
 
-use Ixocreate\Resource\ResourceInterface;
-use Ixocreate\Template\ExtensionInterface;
 use Ixocreate\Database\Repository\Factory\RepositorySubManager;
 use Ixocreate\Database\Repository\RepositoryInterface;
 use Ixocreate\Entity\EntityCollection;
-use Ixocreate\Resource\SubManager\ResourceSubManager;
+use Ixocreate\Resource\ResourceInterface;
+use Ixocreate\Resource\ResourceSubManager;
+use Ixocreate\Template\ExtensionInterface;
 
 final class ResourceExtension implements ExtensionInterface
 {
@@ -30,6 +30,7 @@ final class ResourceExtension implements ExtensionInterface
 
     /**
      * ResourceExtension constructor.
+     *
      * @param ResourceSubManager $resourceSubManager
      * @param RepositorySubManager $repositorySubManager
      */
@@ -55,7 +56,7 @@ final class ResourceExtension implements ExtensionInterface
         $result = $repository->findAll();
 
         return new EntityCollection($result, function ($item) {
-            return (string) $item->id();
+            return (string)$item->id();
         });
     }
 
