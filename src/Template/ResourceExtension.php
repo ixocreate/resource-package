@@ -14,7 +14,7 @@ use Ixocreate\Database\Repository\RepositoryInterface;
 use Ixocreate\Entity\EntityCollection;
 use Ixocreate\Resource\ResourceInterface;
 use Ixocreate\Resource\ResourceSubManager;
-use Ixocreate\Template\ExtensionInterface;
+use Ixocreate\Template\Extension\ExtensionInterface;
 
 final class ResourceExtension implements ExtensionInterface
 {
