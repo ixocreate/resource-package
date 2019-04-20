@@ -7,7 +7,7 @@
 
 declare(strict_types=1);
 
-namespace Ixocreate\Resource\SubManager;
+namespace Ixocreate\Resource;
 
 use Ixocreate\ServiceManager\SubManager\SubManager;
 

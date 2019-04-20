@@ -7,13 +7,12 @@
 
 declare(strict_types=1);
 
-namespace Ixocreate\Resource\SubManager;
+namespace Ixocreate\Resource;
 
-use Ixocreate\Contract\Application\ConfiguratorInterface;
-use Ixocreate\Contract\Application\ServiceRegistryInterface;
-use Ixocreate\Contract\Resource\ResourceInterface;
+use Ixocreate\Application\Configurator\ConfiguratorInterface;
+use Ixocreate\Application\Service\ServiceRegistryInterface;
+use Ixocreate\Application\Service\SubManagerConfigurator;
 use Ixocreate\ServiceManager\Factory\AutowireFactory;
-use Ixocreate\ServiceManager\SubManager\SubManagerConfigurator;
 
 final class ResourceConfigurator implements ConfiguratorInterface
 {
