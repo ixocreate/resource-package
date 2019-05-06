@@ -1,6 +1,8 @@
 # Release Notes
 
-## [Unreleased](https://github.com/ixocreate/resource-package/compare/0.1.0...develop)
+## [Unreleased](https://github.com/ixocreate/resource-package/compare/0.2.0...develop)
+
+## [v0.2.0 (2019-05-06)](https://github.com/ixocreate/resource-package/compare/0.1.0...0.2.0)
 ### Added
 - Compatibility with Application v0.2
 ### Changed
