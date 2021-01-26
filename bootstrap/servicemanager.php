@@ -9,7 +9,7 @@ declare(strict_types=1);
 
 namespace Ixocreate\Resource;
 
-use Ixocreate\Application\Service\ServiceManagerConfigurator;
+use Ixocreate\Application\ServiceManager\ServiceManagerConfigurator;
 
 /** @var ServiceManagerConfigurator $serviceManager */
 $serviceManager->addSubManager(ResourceSubManager::class);

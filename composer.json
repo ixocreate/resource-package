@@ -12,14 +12,14 @@
         }
     ],
     "require": {
-        "php": "^7.1",
-        "ixocreate/application": "~0.1.0|~0.2.0",
-        "ixocreate/database-package": "^0.2",
-        "ixocreate/template-package": "^0.1"
+        "php": "^7.2 || ^8.0",
+        "ixocreate/application": "dev-develeop",
+        "ixocreate/database-package": "dev-develop",
+        "ixocreate/template-package": "dev-develop"
     },
     "require-dev": {
         "ixocreate/coding-standard": "^2.0",
-        "ixocreate/test": "dev-develop"
+        "ixocreate/test": "^0.1.0"
     },
     "autoload": {
         "psr-4": {

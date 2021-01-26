@@ -9,7 +9,7 @@ declare(strict_types=1);
 
 namespace Ixocreate\Resource;
 
-use Ixocreate\ServiceManager\NamedServiceInterface;
+use Ixocreate\Application\ServiceManager\NamedServiceInterface;
 
 interface ResourceInterface extends NamedServiceInterface
 {
