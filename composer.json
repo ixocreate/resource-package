@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": "^7.2 || ^8.0",
-        "ixocreate/application": "dev-develeop",
+        "ixocreate/application": "dev-develop",
         "ixocreate/database-package": "dev-develop",
         "ixocreate/template-package": "dev-develop"
     },
