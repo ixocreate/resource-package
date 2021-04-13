@@ -11,17 +11,15 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "require": {
         "php": "^7.2 || ^8.0",
-        "ixocreate/application": "dev-develop",
-        "ixocreate/database-package": "dev-develop",
-        "ixocreate/template-package": "dev-develop"
+        "ixocreate/application": "^0.3.0",
+        "ixocreate/database-package": "^0.3.0",
+        "ixocreate/template-package": "^0.2.0"
     },
     "require-dev": {
         "ixocreate/coding-standard": "^2.0",
-        "ixocreate/test": "^0.1.0"
+        "ixocreate/test": "^0.2.0"
     },
     "autoload": {
         "psr-4": {
